@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>sessionStorage存储 | 主要内容</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="./5.html" />
+    
+    
+    <link rel="prev" href="./2.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="0.3" data-basepath="." data-revision="1494503212468">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         day03
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1" data-path="1.html">
+            
+                
+                    <a href="./1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                         微博小案例
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.2" data-path="2.html">
+            
+                
+                    <a href="./2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                         cookie存储
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="0.3" data-path="3.html">
+            
+                
+                    <a href="./3.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                         sessionStorage存储
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.4" data-path="5.html">
+            
+                
+                    <a href="./5.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                         localStorage存储
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.5" data-path="6.html">
+            
+                
+                    <a href="./6.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                         应用程序缓存
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.6" data-path="06.html">
+            
+                
+                    <a href="./06.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                         hash简单介绍
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.7" data-path="07.html">
+            
+                
+                    <a href="./07.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                         实现跨域网络访问
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.8" data-path="08.html">
+            
+                
+                    <a href="./08.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.8.</b>
+                        
+                         js模板简单说明
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >主要内容</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_3397">
+                    
+                        <h1 id="sessionstorage">sessionStorage存储</h1>
+<p>简单说明</p>
+<pre><code>    （1）在存储用户数据的时候，因为cookie可以存储的数据比较小才4KB左右，所以也可以考虑使用sessionStorage来存储,大小限制为2M左右
+    （2）该技术和localStorage是h5推出的，因此在使用的时候，需要考虑到兼容性的问题
+    （3）相关资料：http://www.w3school.com.cn/html5/html_5_webstorage.asp
+    （4）简单介绍和使用：
+        001 sessionStorage：会话存储技术（session-会话）
+        002 该技术和cookie一样，一样浏览器退出了，那么保存的数据就会
+        003 演示sessionStorage技术的相关操作
+            添加|获取|更新|删除|清空
+</code></pre><p>示例代码</p>
+<pre><code>&lt;input type=&quot;text&quot;&gt;
+&lt;button class=&quot;btn1&quot;&gt;添加&lt;/button&gt;
+&lt;button class=&quot;btn2&quot;&gt;获取&lt;/button&gt;
+&lt;button class=&quot;btn3&quot;&gt;更新&lt;/button&gt;
+&lt;button class=&quot;btn4&quot;&gt;删除&lt;/button&gt;
+&lt;button class=&quot;btn5&quot;&gt;清空&lt;/button&gt;
+
+
+&lt;script&gt;
+    window.sessionStorage.setItem(&quot;age&quot;,&quot;18&quot;);
+    window.sessionStorage.setItem(&quot;color&quot;,&quot;red&quot;);
+    window.sessionStorage.setItem(&quot;des&quot;,&quot;no des&quot;);
+    var oInput = document.querySelector(&quot;input&quot;);
+    var oBtn1 = document.querySelector(&quot;.btn1&quot;);
+
+    oBtn1.onclick = function () {
+        //添加操作
+        window.sessionStorage.setItem(&quot;name&quot;,oInput.value);
+    };
+    var oBtn2 = document.querySelector(&quot;.btn2&quot;);
+    oBtn2.onclick = function () {
+        //获取操作
+        console.log(window.sessionStorage.getItem(&quot;name&quot;));
+    };
+
+    var oBtn3 = document.querySelector(&quot;.btn3&quot;);
+    oBtn3.onclick = function () {
+        //更新操作
+        window.sessionStorage.setItem(&quot;name&quot;,oInput.value);
+    };
+    var oBtn4 = document.querySelector(&quot;.btn4&quot;);
+    oBtn4.onclick = function () {
+        //删除操作
+        window.sessionStorage.removeItem(&quot;name&quot;);
+    };
+    var oBtn5 = document.querySelector(&quot;.btn5&quot;);
+    oBtn5.onclick = function () {
+        //清空操作
+        window.sessionStorage.clear();
+    };
+
+&lt;/script&gt;
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./2.html" class="navigation navigation-prev " aria-label="Previous page: cookie存储"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./5.html" class="navigation navigation-next " aria-label="Next page: localStorage存储"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

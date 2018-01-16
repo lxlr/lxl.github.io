@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>cookie存储 | 主要内容</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="./3.html" />
+    
+    
+    <link rel="prev" href="./1.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="0.2" data-basepath="." data-revision="1494503212468">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         day03
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1" data-path="1.html">
+            
+                
+                    <a href="./1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                         微博小案例
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="0.2" data-path="2.html">
+            
+                
+                    <a href="./2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                         cookie存储
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.3" data-path="3.html">
+            
+                
+                    <a href="./3.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                         sessionStorage存储
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.4" data-path="5.html">
+            
+                
+                    <a href="./5.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                         localStorage存储
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.5" data-path="6.html">
+            
+                
+                    <a href="./6.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                         应用程序缓存
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.6" data-path="06.html">
+            
+                
+                    <a href="./06.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                         hash简单介绍
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.7" data-path="07.html">
+            
+                
+                    <a href="./07.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                         实现跨域网络访问
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="0.8" data-path="08.html">
+            
+                
+                    <a href="./08.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.8.</b>
+                        
+                         js模板简单说明
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >主要内容</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_3393">
+                    
+                        <h2 id="cookie">cookie存储</h2>
+<p><strong>基本介绍</strong></p>
+<pre><code>（1）web存储相关的技术：cookie | sessionStorage | localStorage |应用缓存
+（2）cookie是一种会话跟踪技术，用于在进行网页访问的时候，存储页面中的某些数据信息。
+</code></pre><p><strong> cookie的使用注意点 </strong></p>
+<pre><code>    001 使用cookie来进行数据存储的大小有限制，4KB
+    002 每个网页中存储cookie的个数（最多50）和每个网站中存储cookie的个数都有限制（200）
+    003 各个不同的浏览器对cookie的数量也不相同
+
+        IE6.0：每个域为20个，大小为4095个字节
+        IE7.0/8.0：每个域为50个 ，大小为4095个字节
+        Opera：每个域为30个 ，4096个字节
+        FF：每个域为50个  ，大小为4097个字节
+        Safari：没有个数限制，大小为4097个字节
+        Chrome：每个域为53个，大小为4097个字节
+        总结：在进行页面cookie操作的时候，应该尽量保证cookie个数小于20个，总大小 小于4KB
+
+    004 cookie数据的过期时间
+
+        1）默认情况下，cookie存储的内容是一次性的，它的有效期间是当前会话（需要把整个浏览器都关闭会话就结束）
+        2）设置过期时间：通过expires=time;的格式来进行指定, 设置了之后只要没有超过过期时间，那么数据将一直都在
+
+    005 cookie是不可以跨浏览器的(在IE中保存的cookie, 不可以在火狐中使用)
+
+    006 cookie是不可以跨域的(跨域名)
+        示例：127.0.0.1/code/test.html 和127.0.0.1/code/test1.html可以访问
+
+        网络请求的常见路径：
+            http://www.baidu.com:80/资源
+            协议://域名.后缀:端口号/资源
+
+        不能跨域的含义：就是只有 （协议+域名+后缀+端口）号都相同才能相互访问
+
+            http://www.baidu.com:80/a.html
+            http://www.baidu.com:80/b.html  能
+
+            http://www.baidu.com:81/a.html
+            http://www.baidu.com:80/b.html 不能（端口号不相同）
+
+            http://mp3.baidu.com:80/a.html
+            http://map.baidu.com:80/b.html 不能（二级域名不相同）
+
+            https://www.baidu.com:80/a.html
+            http://www.baidu.com:80/b.html 不能（协议不相同）
+
+            http://www.bdu.com:80/a.html
+            http://www.dbu.com:80/b.html 不能（以及域名不相同）
+</code></pre><p><strong> cookie的设置和使用 </strong></p>
+<pre><code> 1）设置方法：
+    设置cookie数据：document.cookie = &quot;name=zhangsan&quot;;
+    设置cookie数据和过期的时间：document.cookie = &quot;name=zhangsan; expires=&quot;+date+&quot;;&quot;;
+    过期7天的设置：var date = new Date(); // date.setDate(date.getDate() + 7);
+
+2）使用注意：
+    在设置cookie的时候，一次只能设置一个数据（一个键值对），不能进行批量设置
+    错误的演示：window.cookie = &quot;name=zhangsan&amp;age=18&quot;;
+</code></pre><p>示例代码</p>
+<pre><code>    //设置三个cookie的值，默认的过期时间是seesion（会话内）
+    document.cookie = &quot;name=wendingding&quot;;
+    document.cookie = &quot;age=18&quot;;
+    document.cookie = &quot;des=12345&quot;;
+
+    //设置cookie的值，并指定过期的时间
+    var date = new Date();
+    date.setDate(date.getDate() + 3);   //3天的过期时间
+
+    //注意：在设置过期时间的时候，中间使用；分隔开发
+    document.cookie = &quot;color=red;expires=&quot;+date;
+
+
+    //删除cookie
+    //删除cookie的原理：只要过期时间超过了当前的时间, 数据就会被删除
+    date.setDate(date.getDate() + -1);
+    document.cookie = &quot;age=18; expires=&quot;+date+&quot;;&quot;;
+</code></pre><p><strong>cookie相关方法的封装</strong></p>
+<pre><code>（1）读取某个cookie的值（需要做切割处理）
+（2）添加cookie数据（需要判断是否要设置过期时间）
+（3）删除cookie数据（利用过期时间和添加cookie的方法实现）
+</code></pre><p>01 获取某个key对应的cookie值</p>
+<pre><code>    document.cookie = &quot;name=zhangsan&quot;;
+    document.cookie = &quot;age=18&quot;;
+
+    console.log(document.cookie);
+    //01 获取某个key对应的cookie值
+    function getCookie(key) {
+        //01 先对获取的字符串进行切割，获取得到数组
+        var arrM = document.cookie.split(&quot;;&quot;);
+        console.log(arrM);
+        //02 遍历数组
+        for (var i = 0,len = arrM.length;i&lt;len;i++)
+        {
+            //03 对数组中取出来的每个元素再进行切割
+            var arrT = arrM[i].split(&quot;=&quot;);
+            var res = arrT[0].replace(&quot; &quot;,&quot;&quot;);
+            if(res == key)
+            {
+                return arrT[1];
+            }
+        }
+    }
+
+    console.log(getCookie(&quot;age&quot;));
+</code></pre><p>02 添加cookie和设置过期时间</p>
+<pre><code>  //添加单个cookie的值
+    function addCookie(key,value,date) {
+        //01 判断是否需要设置过期时间
+        if (arguments.length == 2)
+        {
+            document.cookie = key + &quot;=&quot; + value;
+        }else if (arguments.length == 3)
+        {
+            //02 设置过期时间
+            var dateM = new Date();
+            dateM.setDate(dateM.getDate() + date);
+            var res = key + &quot;=&quot; + value +&quot;;&quot; + &quot;expires=&quot;+dateM;
+            document.cookie = res;
+        }
+    }
+
+    addCookie(&quot;haha&quot;,&quot;wuwuwuw&quot;,2);
+</code></pre><p>03 删除cookie数据</p>
+<pre><code>    //删除cookie数据：原理（当前的时间超过了cookie的过期时间那么该数据就会被删除）
+    function removeCookie(key){
+        //重新设置某个cookie的过期时间
+        addCookie(key,&quot;&quot;,-1);
+    }
+
+    removeCookie(&quot;haha&quot;);
+</code></pre><p><strong>使用cookie存储技术来记住页码</strong></p>
+<pre><code>使用cookie技术来处理微博项目说明
+（1）之前的微博项目中还存在一些问题，如果当前的页面是第二页，那么此时刷新页面会自动跳转到默认显示的第一页
+（2）要求在进行刷新的时候，显示的还是当前页的数据
+    具体实现思路：在代码中获取当前的pageNumber,那么当页面加载完成之后就调用方法传递pageNumber作为参数刷新指定页的数据
+    具体实现：
+        1) 在点击页码的时候拿到当前的页码，通过page.text()
+        2) 在切换页码选中状态之后，添加代码：addCookie(&quot;pageNumber&quot;,$(this).text());
+        3) 在按钮点击之前（页面加载完成之后）获取页码，var pageNumber = getCookie(&quot;pageNumber&quot;) || 1;
+        4) 在获取默认显示微博列表数据的位置，把获取第一页的数据修改成获取第pageNumber页的数据
+        5) 处理默认选中的页码：oPage.child
+
+涉及到的代码：
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./1.html" class="navigation navigation-prev " aria-label="Previous page: 微博小案例"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./3.html" class="navigation navigation-next " aria-label="Next page: sessionStorage存储"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
